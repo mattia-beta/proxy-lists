@@ -234,11 +234,6 @@ var ProxyLists = module.exports = {
 		var anonymityLevelsTest;
 
 		if (options.countries) {
-
-			if (_.isArray(options.countries) || !_.isObject(options.countries)) {
-				throw new Error('Invalid option "countries": Object expected.');
-			}
-
 			countriesTest = options.countries;
 		}
 
